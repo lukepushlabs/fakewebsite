@@ -11,20 +11,12 @@ function Navbar(props) {
     <NavbarContainer spaced={props.spaced} color={props.color}>
       <div className="container">
         <div className="navbar-brand">
-          <div className="navbar-item">
+          <div className="">
             <Link href="/">
               <a>
-                <img className="image" src={props.logo} alt="Logo"></img>
+                <img style={{height:'180px'}} className="image" src={props.logo} alt="Logo"></img>
               </a>
             </Link>
-          </div>
-          <div
-            className={"navbar-burger burger" + (menuOpen ? " is-active" : "")}
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
-            <span></span>
-            <span></span>
-            <span></span>
           </div>
         </div>
       </div>

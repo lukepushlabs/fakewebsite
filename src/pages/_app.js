@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         <Navbar
           color="dark"
           spaced={true}
-          logo="https://uploads.divjoy.com/logo-white.svg"
+          logo="/logo_transparent.png"
         ></Navbar>
 
         <Component {...pageProps} />
@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
           backgroundImageOpacity={1}
           description="All secret and covert operations of Dumbledore's army can be found here."
           copyright="© 2020 Dumbledore's Army INC."
-          logo="https://uploads.divjoy.com/logo.svg"
+          logo="/logo_transparent.png"
         ></Footer>
       </>
     </ProvideAuth>

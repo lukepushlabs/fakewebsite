@@ -22,20 +22,20 @@ function TeamBiosSection(props) {
         <TeamBios
           people={[
             {
-              avatar: "",
+              avatar: "/james.jpg",
               name: "James Potter",
               role: "Founder",
               bio:
                 "James Potter is not dead. He is alive and well and the founder of our movement!",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-35.jpeg",
+              avatar: "/voldemort.png",
               name: "Lord Voldemort",
               role: "Founder",
               bio: "Don't believe everything you've hard about our Dark Lord.",
             },
             {
-              avatar: "https://uploads.divjoy.com/pravatar-150x-16.jpeg",
+              avatar: "/harry.jpg",
               name: "Harry Potter",
               role: "Head of Hogwarrts Infiltration",
               bio:

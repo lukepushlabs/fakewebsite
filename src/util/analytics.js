@@ -5,12 +5,12 @@ import Router from "next/router";
 // Initialize analytics and plugins
 // Documentation: https://getanalytics.io
 const analytics = Analytics({
-  debug: process.env.NODE_ENV !== "production",
-  plugins: [
-    googleAnalyticsPlugin({
-      trackingId: process.env.NEXT_PUBLIC_GA_TRACKING_ID,
-    }),
-  ],
+  // debug: process.env.NODE_ENV !== "production",
+  // plugins: [
+  //   googleAnalyticsPlugin({
+  //     trackingId: process.env.NEXT_PUBLIC_GA_TRACKING_ID,
+  //   }),
+  // ],
 });
 
 // Track initial pageview
