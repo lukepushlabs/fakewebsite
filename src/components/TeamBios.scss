@@ -1,0 +1,36 @@
+.TeamBios {
+  &__column {
+    color: #000;
+  }
+
+  &__card {
+    flex-direction: column;
+  }
+
+  &__card-content {
+    flex-direction: column;
+    height: 100%;
+    padding: 1.8rem;
+  }
+
+  &__avatar-wrapper {
+    margin: 0 auto;
+  }
+
+  &__details {
+    margin-top: 20px;
+  }
+
+  &__name {
+    color: #000;
+  }
+
+  &__role {
+    color: #000;
+  }
+
+  &__bio {
+    margin-top: 20px;
+    color: #000;
+  }
+}
